@@ -7,7 +7,8 @@ class ForcaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Forca da UTFPR',
+      debugShowCheckedModeBanner: false,
+      title: 'Forca da XYZ',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         backgroundColor: Colors.green,
